@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;StaticAndNonStatic.StaticVar&apos; to &apos;StaticVarInSaticContext&apos;&#x0D;&#x0A;- Original project: &apos;E8CoreJava&apos;&#x0D;&#x0A;- Original element: &apos;StaticAndNonStatic.StaticVar&apos;&#x0D;&#x0A;- Renamed element: &apos;StaticAndNonStatic.StaticVarInSaticContext&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;StaticVar&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;StaticAndNonStatic{StaticVar.java[StaticVar" matchStrategy="1" name="StaticVarInSaticContext" qualified="false" references="true" similarDeclarations="false" stamp="1760518702998" textual="false" version="1.0"/>
+</session>

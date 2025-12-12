@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+
+<Pane prefHeight="911.0" prefWidth="1256.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.dnyanyog.inventorymanagement.InventoryManagementScreenController">
+
+   <children>
+      <!-- Top Header Bar -->
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#9fd3ed" height="90.0" stroke="BLACK" strokeType="INSIDE" width="1256.0" />
+
+      <Label layoutX="225.0" layoutY="-6.0" prefHeight="97.0" prefWidth="443.0" text="Inventory Management">
+         <font><Font name="System Bold" size="36.0" /></font>
+      </Label>
+
+      <!-- Navigation Buttons -->
+      <Button fx:id="Logout" layoutX="51.0" layoutY="838.0" onAction="#LogoutButton" prefHeight="40.0" prefWidth="125.0" text="Logout" textFill="#093607" />
+
+      <Button fx:id="DashBoard" layoutX="51.0" layoutY="152.0" onAction="#DashBoardButton" prefHeight="56.0" prefWidth="210.0" text="Dashboard">
+         <font><Font name="System Bold" size="18.0" /></font>
+      </Button>
+
+      <Button fx:id="Product" layoutX="51.0" layoutY="236.0" onAction="#ProductButton" prefHeight="56.0" prefWidth="210.0" text="Products">
+         <font><Font name="System Bold" size="18.0" /></font>
+      </Button>
+
+      <Button fx:id="Orders" layoutX="51.0" layoutY="320.0" onAction="#OrdersButton" prefHeight="56.0" prefWidth="210.0" text="Orders">
+         <font><Font name="System Bold" size="18.0" /></font>
+      </Button>
+
+      <Button fx:id="Users" layoutX="51.0" layoutY="404.0" onAction="#UsersButton" prefHeight="56.0" prefWidth="210.0" text="Users">
+         <font><Font name="System Bold" size="18.0" /></font>
+      </Button>
+
+      <Button fx:id="Suppliers" layoutX="51.0" layoutY="488.0" onAction="#SuppliersButton" prefHeight="56.0" prefWidth="210.0" text="Suppliers">
+         <font><Font name="System Bold" size="18.0" /></font>
+      </Button>
+
+      <Button fx:id="Inventory" layoutX="51.0" layoutY="572.0" onAction="#InventoryButton" prefHeight="56.0" prefWidth="210.0" style="-fx-background-color: #f59622; -fx-background-color: #9fd3ed;" text="Inventory" textFill="WHITE">
+         <font><Font name="System Bold" size="18.0" /></font>
+      </Button>
+
+      <!-- Main Content Area -->
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="792.0" layoutX="296.0" layoutY="108.0" stroke="BLACK" strokeType="INSIDE" width="946.0" />
+
+      <!-- Add Inventory Button -->
+      <Button fx:id="AddInventory" layoutX="418.0" layoutY="243.0" onAction="#AddInventoryButton" prefHeight="56.0" prefWidth="279.0" text="Add Inventory" textFill="BLACK">
+         <font><Font name="System Bold" size="18.0" /></font>
+      </Button>
+      <Button fx:id="EditInventory" layoutX="418.0" layoutY="328.0" onAction="#EditInventoryButton" prefHeight="56.0" prefWidth="279.0" text="Edit Inventory" textFill="BLACK">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="SearchInventory" layoutX="418.0" layoutY="411.0" onAction="#SearchInventoryButton" prefHeight="56.0" prefWidth="279.0" text="Search Inventory" textFill="BLACK">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="DeleteInventory" layoutX="418.0" layoutY="495.0" onAction="#DeleteInventoryButton" prefHeight="56.0" prefWidth="279.0" text="Delete Inventory" textFill="BLACK">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="77.0" fitWidth="103.0" layoutX="43.0" layoutY="4.0">
+         <image>
+            <Image url="@../../../../../../../../../Users/Pratiksha/Downloads/StockManagement.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="1048.0" layoutY="30.0" prefHeight="30.0" prefWidth="180.0" text="Pratiksha(Admin)">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="47.0" fitWidth="52.0" layoutX="972.0" layoutY="22.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../../../Users/Pratiksha/Downloads/p.png" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>
